@@ -384,7 +384,7 @@ def train_with_different_lr(csv_path, learning_rates = [1e-6, 2e-6, 3e-6, 5e-6],
 
 def main():
     # 设置基本参数
-    csv_path = 'csv_path = '/home/carl_zhou/BERT/data/carltesting.csv''
+    csv_path = '/home/carl_zhou/BERT/data/carltesting.csv'
     learning_rates = [5e-7, 3e-7, 1e-6, 5e-6, 1e-5]
     training_params = {
         'epochs': 20,
